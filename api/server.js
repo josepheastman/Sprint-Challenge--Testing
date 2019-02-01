@@ -29,6 +29,7 @@ server.use(express.json());
 // });
 
 server.post("/games", (req, res) => {
+  console.log(req.body);
   const changes = req.body;
 
   if (!changes.title) {

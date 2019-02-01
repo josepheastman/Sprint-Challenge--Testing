@@ -31,7 +31,7 @@ describe("server.js", async () => {
       };
 
       let response = await request(server)
-        .post("games")
+        .post("/games")
         .send(body);
 
       expect(response.status).toBe(422);
@@ -39,7 +39,7 @@ describe("server.js", async () => {
 
     it("should respond with JSON object", async () => {
       let response = await request(server)
-        .post("games")
+        .post("/games")
         .send({
           title: "Dark Souls",
           genre: "Action RPG",

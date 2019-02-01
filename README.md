@@ -30,7 +30,7 @@ The difference is that describe() creates a block that groups together multiple 
 
 1. What is the point of `Test Driven Development`? What do you think about this approach?
 
-The point of Test Drive Development is writing code to meet test requirements that avoids test failures of code later on in development. I think this approach is the best way to check early on that your code is doing what you want it to do, and it is very beneficial.
+The point of Test Driven Development is writing code to meet test requirements that avoids test failures of code later on in development. I think this approach is the best way to check early on that your code is doing what you want it to do, and it is very beneficial.
 
 1. Mention three types of automated tests.
 
